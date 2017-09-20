@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     bytes = str.toString().getBytes("KSC5601");
                     int strCount = bytes.length;
-                    inputCount.setText(strCount + " / 80 바이트 입니다.");
+                    inputCount.setText(strCount + " / 80Byte");
                 } catch(UnsupportedEncodingException ex) {
                     ex.printStackTrace();
                 }
